@@ -5,6 +5,7 @@ import ButtonComponent from './shared/ButtonComponent';
 import CounterComponent from './shared/CounterComponent';
 import LinkComponent from './shared/LinkComponent';
 import ListComponent from './shared/ListComponent';
+import FormComponent from './shared/FormComponent';
 
 function formatName(user) {
     return user.firstName + ' ' + user.lastName;
@@ -35,6 +36,8 @@ const element = (
         <LinkComponent />
         <br />
         <ListComponent />
+        <br />
+        <FormComponent selectData={[1, 2, 3, 4, 5]} />
         <br />
     </div>
 );
