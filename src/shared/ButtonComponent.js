@@ -7,6 +7,7 @@ class ButtonComponent extends React.Component {
         onClickFunction: PropTypes.func
     };
 
+    
     constructor(props) {
         super(props);
         this.state = {
